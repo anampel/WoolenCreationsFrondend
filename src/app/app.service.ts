@@ -8,7 +8,9 @@ export class AppService {
 
   constructor(private http: HttpClient) { }
 
-  getAllUsers() {
-    return this.getAllUsers().http.get('http://localhost:8080/findAllUsers');
+  findByUsername() {
+    return this.http.get('http://localhost:8080/api/v1/user/findByUsername?username=anam@gmail.com');
   }
 }
+
+
