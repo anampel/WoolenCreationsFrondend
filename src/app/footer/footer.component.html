@@ -17,11 +17,10 @@
         <div class="footer-widget">
           <h4 class="mb-4">Category</h4>
           <ul class="pl-0 list-unstyled mb-0">
-            <li><a href="#">Men's Fashion</a></li>
-            <li><a href="#">Women's Fashion</a></li>
-            <li><a href="#">Kids Fashion</a></li>
-            <li><a href="#">Accessories</a></li>
-            <li><a href="#">Shoe Collection</a></li>
+            <li><a [routerLink]="['/product-list']"  [queryParams]="{ category1: 'Men'}">Men's Fashion</a></li>
+            <li><a [routerLink]="['/product-list']"  [queryParams]="{ category1: 'Women'}">Women's Fashion</a></li>
+            <li><a [routerLink]="['/product-list']"  [queryParams]="{ category1: 'Kids'}">Kids Fashion</a></li>
+            <li><a [routerLink]="['/product-list']"  [queryParams]="{ category1: 'Home'}">Household Items</a></li>
           </ul>
         </div>
       </div>
@@ -31,10 +30,9 @@
           <h4 class="mb-4">Useful Link</h4>
           <ul class="pl-0 list-unstyled mb-0">
             <li><a href="#">News &amp; Tips</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">Our Shop</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a [routerLink]="['pages/aboutUs']">About Us</a></li>
+            <li><a [routerLink]="['/products']">Our Shop</a></li>
+            <li><a [routerLink]="['pages/contact']">Contact Us</a></li>
           </ul>
         </div>
       </div>

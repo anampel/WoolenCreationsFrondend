@@ -1,41 +1,4 @@
-/*------------------------------------------------------------------
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[Table of contents]
 
-1. Body
-	2. Header 
-		2.1. Navigation 
-		2.2. Menu 
-		2.3. Cart 
-	3. Banner
-		3.1 Slick Slider
-	4. Products
-		4.1 Product Item
-		4.2 Single Product
-	5. Pricing
-	6. Clients
-	7. Instagram Feed 
-	8. User Dashboard
-		8.1 User Profile
-		8.2 Dashboard
-		8.3 Orders Details
-		8.4 Downloads
-	9. Account Page
-	10. Shop
-		10.1 Checkout
-		10.2 Shopping Cart
-		10.3 Product Checkout Details
-		10.4 Purchase Confirmation
-	11.404 Page
-	12. Contact 
-		12.1  Contact Form 
-		12.2 Contact Details
-		12.3 Social Icons
-	13.Footer
-	
-
--------------------------------------------------------------------*/
 /*=== MEDIA QUERY ===*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,700,800|Source+Sans+Pro:400|Catamaran:400,600,700");
 html, body {
@@ -140,24 +103,14 @@ input[type="tel"]:focus {
 }
 
 .form-control {
-  box-shadow: none;
-  border-radius: 0;
-  height: 45px;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  height: 45px !important;
 }
 
 .form-control:focus {
   box-shadow: none;
   border: 1px solid #fb5c42;
-}
-
-.btn {
-  font-size: 18px;
-  letter-spacing: .5px;
-  padding: 14px 35px;
-  text-transform: capitalize;
-  font-weight: 600;
-  border-radius: 0px;
-  border: 2px solid transparent;
 }
 
 .btn-main {
@@ -2163,7 +2116,7 @@ table.shop_table_responsive {
 }
 .slick-prev:before, .slick-next:before
 {
- 
+
   font-size: 20px;
     width: 60px;
     height: 60px;
@@ -2173,7 +2126,7 @@ table.shop_table_responsive {
     text-align: center;
     padding-top: 20px;
     border-radius: 100%;
-    
+
 }
 .slick-next {
   right: 85px!important;
